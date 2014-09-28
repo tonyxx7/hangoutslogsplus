@@ -1,0 +1,54 @@
+#summary Downloading The Latest Source/Version
+= Geting Started (MAC/WIN) =
+Execute the Following Commands: ([USERNAME] is your Google Code Username & [OSNAME] is either: MAC or WIN)
+{{{
+svn checkout https://hangoutslogsplus.googlecode.com/svn/[OSNAME] hangoutslogsplus --username [USERNAME]
+}}}
+== Step 2==
+There should be a new file in your home directory:
+On mac execute: 
+{{{
+open ~/mac/
+}}}
+On windows open the folder in your home folder:
+{{{
+~/WIN/
+}}}
+= Getting Started (LUNIX) =
+It is well known that mac's terminal responds the same as Lunix's Terminal/GNU Bash! So MAC is really LUNIX/MAC!
+So, Just Follow the Mac's Steps exactly!
+=Updating (MAC/WIN/LUNIX)=
+Well, there is no _need_ to check for updates, but you might repetitively use the Hangouts Logs and need to disable/enable them a lot. So updates are checked for by executing:
+{{{
+svn update
+}}}
+When it asks:
+{{{
+Updating '.':
+Error validating server certificate for 'https://hangoutslogsplus.googlecode.com:443':
+ - The certificate is not issued by a trusted authority. Use the
+   fingerprint to validate the certificate manually!
+Certificate information:
+ - Hostname: *.googlecode.com
+ - Valid: from Wed, 10 Sep 2014 13:24:39 GMT until Tue, 09 Dec 2014 00:00:00 GMT
+ - Issuer: Google Inc, US
+ - Fingerprint: 8c:73:49:6b:45:63:96:7e:5f:07:0e:a2:14:df:b7:6b:57:58:f6:d6
+(R)eject, accept (t)emporarily or accept (p)ermanently?
+}}}
+Enter in response:
+{{{
+t
+}}}
+and press enter!
+
+As a result,  if you set the OS, a new version file will be available!
+==Errors==
+There are about a million possible errors with svn up...
+One very common one would be:
+{{{
+Repository UUID was not expected UUID
+}}}
+Do not fret, this means there is no new version!
+
+
+=Thanks for reading me!=
