@@ -1,0 +1,8 @@
+#summary The Source Location
+
+= Source =
+Use this link to open the Source Browse:
+[https://code.google.com/p/hangoutslogsplus/source/browse/ SourceBrowse]
+= OR =
+Use this link to go to the Getting Started Wiki Page:
+[https://code.google.com/p/hangoutslogsplus/wiki/TheBasics?tm=4 Geting Started WikiPage]
